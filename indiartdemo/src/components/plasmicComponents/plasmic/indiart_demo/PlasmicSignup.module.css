@@ -1,0 +1,88 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox__lDhRp {
+  display: block;
+  position: relative;
+  width: 529px;
+  height: 614px;
+  max-width: 100%;
+  background: #d2e5ed33;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.freeBox__ytPl {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 364px;
+  height: 271px;
+  max-width: 100%;
+  background: #fffdfd33;
+  left: 83px;
+  top: 152px;
+  margin-top: 0px;
+  padding: 8px;
+}
+.signupwithEmail:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  align-self: stretch;
+}
+.svg__gDAbq {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__bmqCu {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.signupwithFb:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  align-self: stretch;
+}
+.svg__wCl3H {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__p2N8R {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.signupwithGoogle:global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  align-self: stretch;
+}
+.svg__hm0D {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}
+.svg__maCp {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+}

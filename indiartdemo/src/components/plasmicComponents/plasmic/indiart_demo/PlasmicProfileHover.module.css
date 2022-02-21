@@ -1,0 +1,7 @@
+.root {
+  object-fit: cover;
+  max-width: 100%;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
