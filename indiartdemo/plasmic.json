@@ -1,0 +1,1114 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "../plasmicComponents/plasmic/plasmic__default_style.css.module.css.module.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components/reactComponents/",
+  "defaultPlasmicDir": "../plasmicComponents/plasmic/",
+  "projects": [
+    {
+      "projectId": "58GpZjZCWTaJ8AUhpCwt2K",
+      "projectApiToken": "DIkcfhBwjMCJSjcxfBkMuy4NImyytq5EWylxVcpS9t9EpdhnPQuBgBGxmk00AB1itMFa1KXTxOKnrjN2PN9nlA",
+      "projectName": "react-awesome-reveal",
+      "version": "2.1.1",
+      "cssFilePath": "../plasmicComponents/plasmic/react_awesome_reveal/plasmic_react_awesome_reveal.module.css.module.css.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "codeComponents": [
+        {
+          "id": "R6s1FdhksG",
+          "name": "Reveal",
+          "componentImportPath": "@plasmicpkgs/react-awesome-reveal"
+        }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "enk3K4vZ6pmH6kVCoZJXGn",
+      "projectApiToken": "3n3SKEMyDjMJptsNvaK6yxRaa8PAgqwkfIhRbKT4ZG9SobeM3Kb5rE2pSYmbR338Z5p6vBTScOAnptZwGSbQ",
+      "projectName": "react-youtube",
+      "version": "3.0.2",
+      "cssFilePath": "../plasmicComponents/plasmic/react_youtube/plasmic_react_youtube.module.css.module.css.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "codeComponents": [
+        {
+          "id": "CHO21V9uYw",
+          "name": "YouTube",
+          "componentImportPath": "@plasmicpkgs/react-youtube"
+        }
+      ],
+      "jsBundleThemes": []
+    },
+    {
+      "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+      "projectApiToken": "O5lNnfRjkGe7I2315ZewTi86YOb4bZmCnaRmDkePA3AJOMgQh4HQvTEgsCPn7KqnRJMUUFoJAnNGJihg",
+      "projectName": "Indiart Demo",
+      "version": "latest",
+      "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/plasmic_indiart_demo.module.css",
+      "components": [
+        {
+          "id": "pD-B5n7bBeW",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicTextInput.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        },
+        {
+          "id": "GFn7UWEtp4r1",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicHomepage.jsx",
+          "importSpec": {
+            "modulePath": "Homepage.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicHomepage.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "H6IfdFc-NOE-",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "SE1S13nw2o94",
+          "name": "Button2",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton2.jsx",
+          "importSpec": {
+            "modulePath": "Button2.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton2.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "KZvRGi5XEqyZ",
+          "name": "Button3",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton3.jsx",
+          "importSpec": {
+            "modulePath": "Button3.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton3.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "8xHEc7oi5Y6M",
+          "name": "Button4",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton4.jsx",
+          "importSpec": {
+            "modulePath": "Button4.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton4.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "O0lkQzv2d5iD",
+          "name": "Button5",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton5.jsx",
+          "importSpec": {
+            "modulePath": "Button5.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton5.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "_P1s8AfQ8Xx3",
+          "name": "Button6",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton6.jsx",
+          "importSpec": {
+            "modulePath": "Button6.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton6.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "9i2eJ7zsVC-d",
+          "name": "Button7",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton7.jsx",
+          "importSpec": {
+            "modulePath": "Button7.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton7.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "yPwkJJ1VXNcD",
+          "name": "Button8",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton8.jsx",
+          "importSpec": {
+            "modulePath": "Button8.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton8.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "L6pclz-kLVX1",
+          "name": "Button9",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton9.jsx",
+          "importSpec": {
+            "modulePath": "Button9.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton9.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "NzLp13B_qM4h",
+          "name": "Button10",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton10.jsx",
+          "importSpec": {
+            "modulePath": "Button10.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicButton10.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "3K5VQPVjfZZA",
+          "name": "CreatorProfile",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicCreatorProfile.jsx",
+          "importSpec": {
+            "modulePath": "CreatorProfile.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicCreatorProfile.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "1sCXTpIK3TOw",
+          "name": "NftPage",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicNftPage.jsx",
+          "importSpec": {
+            "modulePath": "NftPage.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicNftPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ITRhXvzT_jL3",
+          "name": "Signup",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSignup.jsx",
+          "importSpec": {
+            "modulePath": "Signup.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSignup.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "wuYTc58rKmTo",
+          "name": "SignupWithEmail",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSignupWithEmail.jsx",
+          "importSpec": {
+            "modulePath": "SignupWithEmail.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSignupWithEmail.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "kMXYSZXsFp7N",
+          "name": "EmailSent",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicEmailSent.jsx",
+          "importSpec": {
+            "modulePath": "EmailSent.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicEmailSent.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "6cPr8RiqKNXF",
+          "name": "EmailVerified",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicEmailVerified.jsx",
+          "importSpec": {
+            "modulePath": "EmailVerified.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicEmailVerified.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "_vy3lDbrsdZT",
+          "name": "LoginWithEmail",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicLoginWithEmail.jsx",
+          "importSpec": {
+            "modulePath": "LoginWithEmail.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicLoginWithEmail.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "W1AS1CJCm2P1",
+          "name": "Login",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicLogin.jsx",
+          "importSpec": {
+            "modulePath": "Login.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicLogin.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "wzQg7co5grOH",
+          "name": "MarketPlace",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicMarketPlace.jsx",
+          "importSpec": {
+            "modulePath": "MarketPlace.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicMarketPlace.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "lisclnfVCzN",
+          "name": "Select",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSelect.jsx",
+          "importSpec": {
+            "modulePath": "Select.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSelect.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select"
+        },
+        {
+          "id": "OfP8Q6aP8wv",
+          "name": "Select__Option",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSelect__Option.jsx",
+          "importSpec": {
+            "modulePath": "Select__Option.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSelect__Option.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option"
+        },
+        {
+          "id": "IIz7Cb5qyfA",
+          "name": "Select__OptionGroup",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSelect__OptionGroup.jsx",
+          "importSpec": {
+            "modulePath": "Select__OptionGroup.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSelect__OptionGroup.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "select-option-group"
+        },
+        {
+          "id": "FBmo78StdmX",
+          "name": "Select__Overlay",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSelect__Overlay.jsx",
+          "importSpec": {
+            "modulePath": "Select__Overlay.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicSelect__Overlay.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "triggered-overlay"
+        },
+        {
+          "id": "AKhkWq92AhN",
+          "name": "Checkbox",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicCheckbox.jsx",
+          "importSpec": {
+            "modulePath": "Checkbox.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicCheckbox.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "checkbox"
+        },
+        {
+          "id": "e1I9aJr6UA8",
+          "name": "ProfileHover",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicProfileHover.jsx",
+          "importSpec": {
+            "modulePath": "ProfileHover.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicProfileHover.module.css.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "r5SYRn1_mi-v",
+          "name": "HomepageDemo",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicHomepageDemo.jsx",
+          "importSpec": {
+            "modulePath": "HomepageDemo.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicHomepageDemo.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ptPrW8RuWjO",
+          "name": "CreateNftForm",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicCreateNftForm.jsx",
+          "importSpec": {
+            "modulePath": "CreateNftForm.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicCreateNftForm.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "5MSC0M28Vln",
+          "name": "Navbar",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicNavbar.jsx",
+          "importSpec": {
+            "modulePath": "Navbar.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicNavbar.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "mGO5EwcSvI",
+          "name": "Imagepanel",
+          "type": "managed",
+          "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+          "renderModuleFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicImagepanel.jsx",
+          "importSpec": {
+            "modulePath": "Imagepanel.jsx"
+          },
+          "cssFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicImagepanel.module.css.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "WZs-KAUeSgru",
+          "name": "IconIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "ZpX0LSSD1gLn",
+          "name": "Icon2Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon2.jsx"
+        },
+        {
+          "id": "viq1EOTvAMqx",
+          "name": "Icon3Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon3.jsx"
+        },
+        {
+          "id": "eBLPldbips0Z",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Searchsvg.jsx"
+        },
+        {
+          "id": "aLtbJ-mOmkEW",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "521dntnHf0A1",
+          "name": "ChevronDownIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__ChevronDown.jsx"
+        },
+        {
+          "id": "KT8ACv9CYzm6",
+          "name": "_14655891761535698998SvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon___14655891761535698998Svg.jsx"
+        },
+        {
+          "id": "c0B7N0WLOCf8",
+          "name": "Icon8Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon8.jsx"
+        },
+        {
+          "id": "wsIP_Wmz1nvS",
+          "name": "_12454851961582823590SvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon___12454851961582823590Svg.jsx"
+        },
+        {
+          "id": "ygeiGfNU6UKr",
+          "name": "_13616027201551939471SvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon___13616027201551939471Svg.jsx"
+        },
+        {
+          "id": "x0GLTVm7LqxQ",
+          "name": "Icon4Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon4.jsx"
+        },
+        {
+          "id": "h-wYyT4V3Cp3",
+          "name": "Icon5Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon5.jsx"
+        },
+        {
+          "id": "in7riYaerWVC",
+          "name": "Icon28Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon28.jsx"
+        },
+        {
+          "id": "ffAnZsN_wlRn",
+          "name": "WalletSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__WalletSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "4ztbfV1F6N7H",
+          "name": "CollectionSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__CollectionSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "55qxcVSgRAgt",
+          "name": "ListSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__ListSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "TIflUYTr1rtf",
+          "name": "ImageSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__ImageSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "wxMYI1AVDvF5",
+          "name": "Icon6Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon6.jsx"
+        },
+        {
+          "id": "UIKoFJyEh9dY",
+          "name": "Icon7Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon7.jsx"
+        },
+        {
+          "id": "9U2UTJvNDR-J",
+          "name": "Icon9Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon9.jsx"
+        },
+        {
+          "id": "XwzJQBZ6zjKG",
+          "name": "Icon10Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon10.jsx"
+        },
+        {
+          "id": "yXM0TgpHoW-z",
+          "name": "Icon11Icon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Icon11.jsx"
+        },
+        {
+          "id": "Yls-Xq7aJFN4",
+          "name": "ArrowRightsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__ArrowRightsvg.jsx"
+        },
+        {
+          "id": "YYHHcclC5f3p",
+          "name": "HeartSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__HeartSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "Lt6uLr7Iz5gE",
+          "name": "TimeSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__TimeSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "WQIwI5k2eoMf",
+          "name": "EthereumSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__EthereumSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "uvIcwrHqdjwc",
+          "name": "HamburgerMenuSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__HamburgerMenuSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "qnTpGc39Pg1I",
+          "name": "GridSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__GridSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "v5PvUZgp3HyE",
+          "name": "RefreshSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__RefreshSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "Os6k3HPER99f",
+          "name": "ShareSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__ShareSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "xYqQEF3cFFn2",
+          "name": "ThreeDotsSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__ThreeDotsSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "mYoQaMN56CvK",
+          "name": "ChevronDownsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__ChevronDownsvg.jsx"
+        },
+        {
+          "id": "oDBQZqedSNdm",
+          "name": "ChevronUpsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__ChevronUpsvg.jsx"
+        },
+        {
+          "id": "vrZ-ZPR58qv-",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__Squaresvg.jsx"
+        },
+        {
+          "id": "A1J5EggQj-CU",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__SquareCheckFilledsvg.jsx"
+        },
+        {
+          "id": "y4P2_hPw16yb",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__SquareMinussvg.jsx"
+        },
+        {
+          "id": "3tV9mqAzov1H",
+          "name": "UserSvgrepoComsvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__UserSvgrepoComsvg.jsx"
+        },
+        {
+          "id": "1xp6j2dRFJC7",
+          "name": "WalletSvgrepoCom1SvgIcon",
+          "moduleFilePath": "../plasmicComponents/plasmic/indiart_demo/icons/PlasmicIcon__WalletSvgrepoCom1Svg.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "PlRHKpJ3NaY7",
+          "name": "image.png",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/imagepng.jpeg"
+        },
+        {
+          "id": "ICvJ_jDSMKKl",
+          "name": "image",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image.svg"
+        },
+        {
+          "id": "sZMQpppbFnJM",
+          "name": "gerda-sXKm4HRYdBM-unsplash.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/gerdaSXKm4HrYdBmUnsplashjpg.jpeg"
+        },
+        {
+          "id": "BhMrnDDeKfYs",
+          "name": "yellow-light-face-silhouette.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/yellowLightFaceSilhouettejpg.jpeg"
+        },
+        {
+          "id": "G9iB6KPmD4oP",
+          "name": "man-lifts-tire-exercise.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/manLiftsTireExercisejpg.jpeg"
+        },
+        {
+          "id": "OvcTCQzziHbC",
+          "name": "handful-of-bitcoin-cryptocurrency.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/handfulOfBitcoinCryptocurrencyjpg.jpeg"
+        },
+        {
+          "id": "XcgNAMGbgBqe",
+          "name": "sama-hosseini-dXypDjDzF58-unsplash.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/samaHosseiniDXypDjDzF58Unsplashjpg.jpeg"
+        },
+        {
+          "id": "ipYMMu7DBWgt",
+          "name": "susan-wilkinson-Q8hQYzt7rFo-unsplash.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/susanWilkinsonQ8HQYzt7RFoUnsplashjpg.jpeg"
+        },
+        {
+          "id": "UcJRYwxi81Xs",
+          "name": "asphalt-highway.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/asphaltHighwayjpg.jpeg"
+        },
+        {
+          "id": "TDWWjrxEV0jX",
+          "name": "golden-autumn-leaves.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/goldenAutumnLeavesjpg.jpeg"
+        },
+        {
+          "id": "WXn0M9VpS5FL",
+          "name": "long-forest-path.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/longForestPathjpg.jpeg"
+        },
+        {
+          "id": "ispBS4hIn4L-",
+          "name": "city-lights-through-rain-window.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/cityLightsThroughRainWindowjpg.jpeg"
+        },
+        {
+          "id": "0t-YsYJEfsEm",
+          "name": "hiker-looks-out-over-bay-surrounded-by-mountains.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/hikerLooksOutOverBaySurroundedByMountainsjpg.jpeg"
+        },
+        {
+          "id": "gvj5wSVjGHuv",
+          "name": "lemurs-sitting-on-log.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/lemursSittingOnLogjpg.jpeg"
+        },
+        {
+          "id": "u4w67qjRTeWN",
+          "name": "a-single-brown-speckled-egg-in-a-little-nest.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/aSingleBrownSpeckledEggInALittleNestjpg.jpeg"
+        },
+        {
+          "id": "-lKvk_PrfBdd",
+          "name": "image 2",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image2.png"
+        },
+        {
+          "id": "hhL9WJ47Lg87",
+          "name": "image 3",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image3.jpeg"
+        },
+        {
+          "id": "4DBEJuXsgj6g",
+          "name": "image 4",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image4.png"
+        },
+        {
+          "id": "DSsF0NspDvFQ",
+          "name": "image 5",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image5.jpeg"
+        },
+        {
+          "id": "yuYHi_m_jto-",
+          "name": "image 6",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image6.jpeg"
+        },
+        {
+          "id": "Z5GnjHhofyC8",
+          "name": "image 7",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image7.png"
+        },
+        {
+          "id": "oZ-dQYEib6nf",
+          "name": "image 8",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image8.jpeg"
+        },
+        {
+          "id": "f41AHjhK20U4",
+          "name": "image 9",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image9.png"
+        },
+        {
+          "id": "osE2Gu8ruO6l",
+          "name": "image 10",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image10.jpeg"
+        },
+        {
+          "id": "K_FFB08H5zsk",
+          "name": "image 11",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image11.svg"
+        },
+        {
+          "id": "kczkuPLth2Zw",
+          "name": "image 12",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image12.jpeg"
+        },
+        {
+          "id": "9OB9Fgu7BgWK",
+          "name": "image 13",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image13.jpeg"
+        },
+        {
+          "id": "dxHs7tLxqa0m",
+          "name": "image 14",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image14.jpeg"
+        },
+        {
+          "id": "Q2JTOUKYy3tF",
+          "name": "image 15",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image15.jpeg"
+        },
+        {
+          "id": "R18Nqt0r5Lqi",
+          "name": "image 16",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image16.jpeg"
+        },
+        {
+          "id": "aeeWgKZGxF4l",
+          "name": "image 17",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image17.svg"
+        },
+        {
+          "id": "cYQzCOJ1eDX2",
+          "name": "image 18",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image18.svg"
+        },
+        {
+          "id": "LOqmRSLA0Zys",
+          "name": "image 19",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image19.svg"
+        },
+        {
+          "id": "V5o87QLXz8cB",
+          "name": "image 20",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image20.svg"
+        },
+        {
+          "id": "sOwQF2Gnmsff",
+          "name": "image 21",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image21.jpeg"
+        },
+        {
+          "id": "NJldl48eSLNZ",
+          "name": "image 22",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image22.jpeg"
+        },
+        {
+          "id": "vB8HMknpm8rw",
+          "name": "image 23",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image23.jpeg"
+        },
+        {
+          "id": "H0hlI_X6Tnsc",
+          "name": "image 24",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image24.jpeg"
+        },
+        {
+          "id": "ohIJnvPN_pfo",
+          "name": "image 25",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image25.jpeg"
+        },
+        {
+          "id": "Ct28xYCooFzr",
+          "name": "image 26",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image26.jpeg"
+        },
+        {
+          "id": "DwfTmCLX2OGH",
+          "name": "image 27",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image27.jpeg"
+        },
+        {
+          "id": "NU1PDlFCOO5k",
+          "name": "image 28",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image28.jpeg"
+        },
+        {
+          "id": "LJQzx7jqw28-",
+          "name": "image 29",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image29.jpeg"
+        },
+        {
+          "id": "VN7XhDSbowdd",
+          "name": "image 30",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image30.jpeg"
+        },
+        {
+          "id": "IhCWrZZeFh2f",
+          "name": "image 31",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image31.jpeg"
+        },
+        {
+          "id": "XhXbTRVT0Na_",
+          "name": "image 32",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image32.jpeg"
+        },
+        {
+          "id": "REfbZHXeJOvT",
+          "name": "image 33",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image33.jpeg"
+        },
+        {
+          "id": "xUhyfWWqKSb9",
+          "name": "image 34",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image34.jpeg"
+        },
+        {
+          "id": "1Yu0Gqcvd82V",
+          "name": "image 35",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image35.jpeg"
+        },
+        {
+          "id": "899QOL4YrTM7",
+          "name": "image 36",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image36.jpeg"
+        },
+        {
+          "id": "0BVC2Alp9VUz",
+          "name": "image 37",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image37.jpeg"
+        },
+        {
+          "id": "XJi7_3XctyW3",
+          "name": "image 38",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image38.jpeg"
+        },
+        {
+          "id": "YRU7XywCyf7-",
+          "name": "image 39",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image39.svg"
+        },
+        {
+          "id": "TGX4Y31x1n9h",
+          "name": "image 40",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image40.jpeg"
+        },
+        {
+          "id": "Tn83Lxy-D-eO",
+          "name": "image 41",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image41.jpeg"
+        },
+        {
+          "id": "A8eIzQyltODA",
+          "name": "image 42",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image42.jpeg"
+        },
+        {
+          "id": "d2E2dNo4_T1O",
+          "name": "image 43",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image43.jpeg"
+        },
+        {
+          "id": "7H10Pdq2D40m",
+          "name": "image 44",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image44.jpeg"
+        },
+        {
+          "id": "FX7Z7F2lb55U",
+          "name": "image 45",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image45.jpeg"
+        },
+        {
+          "id": "tK8AC9t7Z5HI",
+          "name": "image 46",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image46.jpeg"
+        },
+        {
+          "id": "bgr8yBnsGQur",
+          "name": "image 47",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image47.jpeg"
+        },
+        {
+          "id": "DP7TvC1Ux16r",
+          "name": "designers-desk-flatlay.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/designersDeskFlatlayjpg.jpeg"
+        },
+        {
+          "id": "jJr4Ae3TtDgu",
+          "name": "arts-crafts-in-blue.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/artsCraftsInBluejpg.jpeg"
+        },
+        {
+          "id": "4pDwnhy7ciov",
+          "name": "assortment-of-toys-on-pink.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/assortmentOfToysOnPinkjpg.jpeg"
+        },
+        {
+          "id": "SbCdnAUOR71o",
+          "name": "image 48",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/image48.png"
+        },
+        {
+          "id": "2_fNMpZ1rE2h",
+          "name": "people-at-an-art-gallery-facing-the-work.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/peopleAtAnArtGalleryFacingTheWorkjpg.jpeg"
+        },
+        {
+          "id": "qLJWLgEVfOAF",
+          "name": "rusty-green-tin-graphitti-wall-texture.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/rustyGreenTinGraphittiWallTexturejpg.jpeg"
+        },
+        {
+          "id": "Tm9izKHyofND",
+          "name": "a-woman-stands-in-an-art-gallery-in-front-of-paintings.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/aWomanStandsInAnArtGalleryInFrontOfPaintingsjpg.jpeg"
+        },
+        {
+          "id": "whZQGH0UMy0z",
+          "name": "rusty-green-tin-graphitti-wall.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/rustyGreenTinGraphittiWalljpg.jpeg"
+        },
+        {
+          "id": "k-f_Ve4MEXsv",
+          "name": "art-supplies-in-red.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/artSuppliesInRedjpg.jpeg"
+        },
+        {
+          "id": "drEwNevIyJvN",
+          "name": "brick-wall-spray-paint-art.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/brickWallSprayPaintArtjpg.jpeg"
+        },
+        {
+          "id": "yEEarUMwaQK5",
+          "name": "rainbow-of-paint-colors.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/rainbowOfPaintColorsjpg.jpeg"
+        },
+        {
+          "id": "aqL1ggvGQvge",
+          "name": "photographer-in-pink-art.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/photographerInPinkArtjpg.jpeg"
+        },
+        {
+          "id": "qTO3q1_1j4u2",
+          "name": "colorful-geometric-wall-art-on-a-shabby-street.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/colorfulGeometricWallArtOnAShabbyStreetjpg.jpeg"
+        },
+        {
+          "id": "bJONJr1EJCL4",
+          "name": "Email sent.gif",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/emailSentgif.gif"
+        },
+        {
+          "id": "mD3XYFcbzKw-",
+          "name": "Email verified.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/emailVerifiedjpg.jpeg"
+        },
+        {
+          "id": "Dprif0EjgCLE",
+          "name": "Indiart Black.png",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/indiartBlackpng.png"
+        },
+        {
+          "id": "mG3dMTvipD5S",
+          "name": "hiker-looks-up-at-vertical-mountain-peaks.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/hikerLooksUpAtVerticalMountainPeaksjpg.jpeg"
+        },
+        {
+          "id": "k_Gqu7uJ8",
+          "name": "Indiart Black cropped.png",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/indiartBlackCroppedpng.png"
+        },
+        {
+          "id": "0r6RxpyRY",
+          "name": "1_Goe9vM3cRDZHq_vJJd5QOg.gif",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/_1Goe9VM3CRdzHqVJJd5QOggif.gif"
+        },
+        {
+          "id": "H7581wQQv",
+          "name": "pexels-photo-5354482.jpeg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/pexelsPhoto5354482Jpeg.jpeg"
+        },
+        {
+          "id": "YRaMFh0-_",
+          "name": "colored-pixels-background-vector-12755988.jpg",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/coloredPixelsBackgroundVector12755988Jpg.jpeg"
+        },
+        {
+          "id": "YhAkd-o91",
+          "name": "Untitled design (6).gif",
+          "filePath": "../plasmicComponents/plasmic/indiart_demo/images/untitledDesign6Gif.jpeg"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "l9n-DyDlcQ3h",
+        "name": "Screen",
+        "projectId": "46Sa4WMCscwEt6Udy4KXw2",
+        "contextFilePath": "../plasmicComponents/plasmic/indiart_demo/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.169",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.169/dist/plasmic.schema.json"
+}
